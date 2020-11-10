@@ -1,0 +1,18 @@
+[package]
+name = "electron-neon-test-20201111"
+version = "0.1.0"
+authors = ["ryu-s <rysestock@gmail.com>"]
+license = "MIT"
+build = "build.rs"
+edition = "2018"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "electron_neon_test_20201111"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.5.1"
+
+[dependencies]
+neon = "0.5.1"
