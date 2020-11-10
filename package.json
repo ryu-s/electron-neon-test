@@ -2,7 +2,7 @@
   "name": "electron-neon-test-20201111",
   "version": "0.1.0",
   "description": "",
-  "main": "lib/index.js",
+  "main": "main.js",
   "author": "ryu-s <rysestock@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -10,11 +10,12 @@
     "neon-cli": "^0.5.1"
   },
   "scripts": {
-    "build": "electron-build-env neon build  --release",
+    "build": "electron-build-env neon build --release",
     "install": "neon build",
-    "start":"electron ."
+    "start": "electron ."
   },
   "devDependencies": {
-    "electron-build-env": "^0.2.0"
+    "electron-build-env": "^0.2.0",
+    "nan": "^2.14.2"
   }
 }
