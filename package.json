@@ -7,11 +7,12 @@
   "license": "MIT",
   "dependencies": {
     "electron": "^10.1.5",
-    "neon-cli": "^0.5.1"
+    "neon-cli": "^0.5.1",
+    "electron-rebuild": "^2.3.2"
   },
   "scripts": {
     "build": "electron-build-env neon build --release",
-    "install": "neon build",
+    "install": "neon build --release",
     "start": "electron ."
   },
   "devDependencies": {
