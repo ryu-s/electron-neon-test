@@ -16,7 +16,7 @@ function createWindow() {
     }
   })
 
-  //console.log(addon.hello())
+  console.log(addon.hello())
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')

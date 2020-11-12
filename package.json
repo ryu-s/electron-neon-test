@@ -11,8 +11,7 @@
     "electron-rebuild": "^2.3.2"
   },
   "scripts": {
-    "build": "electron-build-env neon build --release",
-    "install": "neon build --release",
+    "build": "electron-build-env neon build",
     "start": "electron ."
   },
   "devDependencies": {
